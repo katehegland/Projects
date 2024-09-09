@@ -23,3 +23,7 @@ App Key - 2d327a070018d370d2ff3eb8c5732da0
 
 -Displays all of the recipes from the recipe API that align with the selected fruit.
 
+**Use Instructions**
+
+-Run the code to get a unique fruits each time it is run and their accompanying recipes. 
+
