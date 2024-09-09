@@ -65,6 +65,6 @@ params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":fruit}
 
 For a custom fruit:
 
-params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":"custom fruit"}
+params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":custom fruit}
 
 
