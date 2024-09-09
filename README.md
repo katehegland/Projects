@@ -9,6 +9,12 @@ App ID - 757c083c
 
 App Key - 2d327a070018d370d2ff3eb8c5732da0
 
+**API Selection**
+
+-The recipe API was selected for its vast array of recipes to provide multiple selections per fruit.
+
+-The fruit API included various types of fruits, including less common ones, which made it ideal.
+
 **Features:**
 
 -Recipes are sorted into url, label, ingredients, and image.
