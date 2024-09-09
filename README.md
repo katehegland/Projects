@@ -1,7 +1,7 @@
 # Projects
 ## **PPDS - Activity 1 - Data Features**
 
-This Google Colab assignment demonstrates a data feature combining data from a recipe API (Edamam Recipes) and fruit API (FruityVice). This feature will help people find recipes that contain their desired fruit ingredients.<br />
+This Google Colab assignment demonstrates a data feature combining data from a recipe API (Edamam Recipes) and fruit API (FruityVice). This feature will help people find recipes that contain their desired fruit ingredients.
 
 
 ### **API Access:**
@@ -53,7 +53,7 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 
 ### **Process & Implementation**
 
--In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into relevant the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time its run and to send that random fruit to a text output that appears above the recipe database output. Throughout our process, we created code for exceptions and errors. 
+-In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time its run and to send that random fruit to a text output that appears above the recipe database output. Throughout our process, we created code for exceptions and errors. 
 
 ### **Execution**
 
