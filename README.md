@@ -57,7 +57,7 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 
 ### **Execution**
 
-For custom searches replace the fruit variable in the params variable to your desired fruit.
+For custom searches replace the "fruit" in the params variable code to your desired fruit.
 
 For a random fruit:
 
