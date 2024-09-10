@@ -37,7 +37,7 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 ### **Features:**
 
 
--Recipes are sorted into url, label (Name), ingredients, and image.
+-Recipes are sorted into URL, label (Name), ingredients, and image.
 
 -Produces a random fruit each time the code is run from the fruit API.
 
@@ -54,11 +54,11 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 
 ### **Process & Implementation**
 
--In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time its run and to send that random fruit to a text output that appears above the recipe database output. Throughout our process, we created code for exceptions and errors. 
+-In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time it's run and to send that random fruit to a text output that appears above the recipe database output. Throughout our process, we created code for exceptions and errors. 
 
 ### **Execution**
 
-For custom searches replace the "fruit" in the params variable code to your desired fruit.
+For custom searches replace the "fruit" in the params variable code with your desired fruit.
 
 For a random fruit:
 
