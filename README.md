@@ -1,13 +1,71 @@
 # Projects
 
-**PPDS - Activity 1 - Data Features**
+## **PPDS - Activity 1 - Data Features**
 
-This Google Colab assignment demonstrates a data feature combining data from a recipe API and fruit API. This feature will help people find recipes that contain their desired fruit ingredients.
+This Google Colab assignment demonstrates a data feature combining data from a recipe API (Edamam Recipes) and fruit API (FruityVice). This feature will help people find recipes that contain their desired fruit ingredients.
 
-Recipe API Key:
+
+### **API Access:**
+
+
+Recipe API: https://developer.edamam.com/edamam-docs-recipe-api
+
+-Developer account required (limit of 10 requests per minute)
+
+-Keys Used:
+
 App ID - 757c083c
+
+
 App Key - 2d327a070018d370d2ff3eb8c5732da0
 
-Features:
--
+Fruit API: https://www.fruityvice.com/doc/index.html
+
+-No special authorization required
+
+
+
+### **API Selection**
+
+
+-The recipe API was selected for its vast array of recipes to provide multiple selections per fruit.
+
+-The fruit API included various types of fruits, including less common ones, which made it ideal.
+
+
+
+### **Features:**
+
+
+-Recipes are sorted into url, label (Name), ingredients, and image.
+
+-Produces a random fruit each time the code is run from the fruit API.
+
+-Displays all of the recipes from the recipe API that align with the selected fruit in the format of a Pandas DataFrame.
+
+
+
+### **Use Instructions**
+
+
+-Run the code to get a unique fruit each time it is run and its accompanying recipes. 
+
+
+
+### **Process & Implementation**
+
+-In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time its run and to send that random fruit to a text output that appears above the recipe database output. Throughout our process, we created code for exceptions and errors. 
+
+### **Execution**
+
+For custom searches replace the "fruit" in the params variable code to your desired fruit.
+
+For a random fruit:
+
+params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":fruit} 
+
+For a custom fruit:
+
+params = {"type": "public", "app_id": *APP ID*,"app_key":*API KEY*,"q":custom fruit}
+
 
