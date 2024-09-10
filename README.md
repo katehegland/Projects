@@ -55,7 +55,6 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 ### **Process & Implementation**
 
 -In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time it's run or the opportunity to input a specific fruit. Throughout our process, we created code for exceptions and errors. 
->>>>>>> 993893941d02fe8dc62e0e5bd3b3a14cf69e6156
 
 ### **Execution**
 
