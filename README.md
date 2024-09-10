@@ -39,7 +39,7 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 
 -Recipes are sorted into URL, label (Name), ingredients, and image.
 
--Produces a random fruit each time the code is run from the fruit API.
+-The original code produced a random fruit each time the code is run from the fruit API. The updated code includes optionality over which fruit to search.
 
 -Displays all of the recipes from the recipe API that align with the selected fruit in the format of a Pandas DataFrame.
 
@@ -48,13 +48,14 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 ### **Use Instructions**
 
 
--Run the code to get a unique fruit each time it is run and its accompanying recipes. 
+-Run the code to get your desired fruit's accompanying recipes and information. 
 
 
 
 ### **Process & Implementation**
 
--In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time it's run and to send that random fruit to a text output that appears above the recipe database output. Throughout our process, we created code for exceptions and errors. 
+-In order to access the Edamam recipe API, account creation is required. Next, we broke down the recipes into the relevant parts mentioned in the features section. Following this, we process the FruityVice API to provide a random fruit from its list each time it's run or the opportunity to input a specific fruit. Throughout our process, we created code for exceptions and errors. 
+>>>>>>> 993893941d02fe8dc62e0e5bd3b3a14cf69e6156
 
 ### **Execution**
 
