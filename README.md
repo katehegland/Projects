@@ -39,7 +39,7 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 
 -Recipes are sorted into url, label (Name), ingredients, and image.
 
--Produces a random fruit each time the code is run from the fruit API.
+-The original code produced a random fruit each time the code is run from the fruit API. The updated code includes optionality over which fruit to search.
 
 -Displays all of the recipes from the recipe API that align with the selected fruit in the format of a Pandas DataFrame.
 
@@ -48,7 +48,7 @@ Fruit API: https://www.fruityvice.com/doc/index.html
 ### **Use Instructions**
 
 
--Run the code to get a unique fruit each time it is run and its accompanying recipes. 
+-Run the code to get your desired fruit's accompanying recipes and information. 
 
 
 
