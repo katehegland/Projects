@@ -12,13 +12,6 @@ Recipe API: https://developer.edamam.com/edamam-docs-recipe-api
 
 -Developer account required (limit of 10 requests per minute)
 
--Keys Used:
-
-App ID - 757c083c
-
-
-App Key - 2d327a070018d370d2ff3eb8c5732da0
-
 Fruit API: https://www.fruityvice.com/doc/index.html
 
 -No special authorization required
